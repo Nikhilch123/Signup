@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="stylesheet" href="sign.css">
+    
+</head>
+<body>
+    <div class="container">
+        <form id="form"  >
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password1">Confirm Password</label>
+                <input id= "password1" type="password">
+                <div class="error"></div>
+            </div>
+            <button class="btn" onclick="save()"    type="submit">submit</button>
+            <a href="/login/html/login.html"><u>Login here</u></a>
+        </form>
+    </div>
+    <script src="/login/js/login.js"></script>
+</body>
+</html>
